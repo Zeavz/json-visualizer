@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import JsonInputContainer from "./components/JsonInputContainer";
+import VisualizerContainer from "./components/VisualizerContainer";
+import styled from "@emotion/styled";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledDiv>
+      <JsonInputContainer />
+      <VisualizerContainer />
+    </StyledDiv>
   );
 }
+
+const StyledDiv = styled("div")`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+`;
 
 export default App;
