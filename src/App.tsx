@@ -1,4 +1,3 @@
-import "./App.css";
 import JsonInputContainer from "./components/JsonInputContainer";
 import VisualizerContainer from "./components/VisualizerContainer";
 import styled from "@emotion/styled";
