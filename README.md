@@ -1,3 +1,5 @@
+# JSON Visualizer
+Visualize your json objects with this simple UI interface! 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
